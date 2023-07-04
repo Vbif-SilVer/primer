@@ -1,0 +1,357 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html,body{
+	width: 100vw;
+	font-family: tahoma;
+	overflow-x:hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 0 20px 0;
+	width: 100%;
+}
+
+nav{
+	display: flex;
+	padding: 10px;
+	width: 95%;
+}
+
+.alert{
+	padding: 20px;
+	margin: 5px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.inHeader{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.inHeader p{
+	color: #1dbe21;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.width-25{
+	width: 25%;
+	min-width: 250px;
+}
+
+.width-33{
+	width: 33%;
+	min-width: 400px;
+	max-width: 600px;
+}
+
+.width-45{
+	width: 45%;
+	min-width: 450px;
+}
+
+.width-100{
+	width: 100%;
+}
+
+.button{
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 14pt;
+}
+
+.btn-blue{
+	border: 1px solid #77a1f7;
+	background-color: #77a1f7;
+	transition: 0.5s;
+}
+
+.btn-blue:hover{
+	background-color: #fff;
+	color: #77a1f7;
+}
+
+.outline-gray{
+	background-color: #fff;
+	color: gray;
+	border: 2px solid gray;
+	transition: 0.5s;	
+}
+
+.outline-gray:hover{
+	background-color: gray;
+	color: #fff;
+}
+
+.outline-gray:active{
+	background-color: gray;
+	color: #fff;
+}
+
+.outline-blue{
+	background-color: #fff;
+	color: #77a1f7;
+	border: 2px solid #77a1f7;
+	transition: 0.5s;	
+}
+
+.outline-blue:hover{
+	background-color: #77a1f7;
+	color: #fff;
+}
+
+.btn-green{
+	background-color: #1dbe21;
+	border: 1px solid #1dbe21;
+	transition: 0.5s;
+}
+
+.btn-green:hover{
+	background-color: #fff;
+	color: #1dbe21;
+}
+
+.outline-green{
+	background-color: #fff;
+	color: #1dbe21;
+	border: 2px solid #1dbe21;
+	transition: 0.5s;	
+}
+
+.outline-green:hover{
+	background-color: #1dbe21;
+	color: #fff;
+}
+
+.btn-red{
+	background-color: #be1d1d;
+	border: 1px solid #be1d1d;
+	transition: 0.5s;
+}
+
+.btn-red:hover{
+	background-color: #fff;
+	color: #be1d1d;
+}
+
+.outline-red{
+	background-color: #fff;
+	color: #be1d1d;
+	border: 2px solid #be1d1d;
+	transition: 0.5s;	
+}
+
+.outline-red:hover{
+	background-color: #be1d1d;
+	color: #fff;
+}
+
+.blue{
+	background-color: #77a1f7;
+}
+
+.light-blue{
+	background-color: #e3eefa;
+}
+
+.green{
+	background-color: #1dbe21;	
+}
+
+.light-green{
+	background-color: #d9ffda;
+}
+
+.red{
+	background-color: #be1d1d;
+}
+
+.light-red{
+	background-color: #ffe2e2;
+}
+
+.border-blue{
+	border: 2px solid #77a1f7;
+}
+
+.border-blue-left{
+	border-left: 15px solid #77a1f7;
+}
+
+.border-blue-top{
+	border-top: 5px solid #77a1f7;
+}
+
+.border-green{
+	border: 2px solid #1dbe21;
+}
+
+.border-green-left{
+	border-left: 15px solid #1dbe21;
+}
+
+.border-green-top{
+	border-top: 5px solid #1dbe21;
+}
+
+.border-red{
+	border: 2px solid #be1d1d;	
+}
+
+.text-red{
+	color:#be1d1d;
+}
+
+.text-green{
+	color:#1dbe21;
+}
+
+.text-blue{
+	color:#77a1f7;
+}
+
+.text-white{
+	color:#fff;
+}
+
+.sectionName{
+	padding: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	font-size: 20pt;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 95%;
+}
+
+.card-wrap{
+	margin-bottom:20px;
+	padding: 10px; 
+	transition: 0.5s
+}
+
+.card{
+	width: 100%;
+	padding: 10px;
+}
+
+.shadow{
+	box-shadow: 0px 10px 30px gray;	
+}
+
+.card-header{
+	color: #fff;
+	padding: 10px;
+}
+
+.card p{
+	margin-bottom: 10px;
+}
+
+.img-wrap{
+	width: 100%;
+	margin-bottom: 20px;	
+}
+
+.img-wrap img{
+	width: 100%;
+
+}
+
+.card-status{
+	color:#fff;
+	padding: 3px;
+	font-weight: bold;
+	border-radius: 5px; 
+}
+
+.photoBefore{
+	transition: 0.3s;
+}
+
+.photoAfter{
+	transition: 0.3s;
+	transform:scale(0);
+	display: none;
+}
+
+/*.photoAfter:hover{
+	transform:scale(1);
+}*/
+
+form{
+	padding: 5px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+small{
+	width: 90%;
+	color: gray;
+}
+
+form h3{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+form div{
+	display: flex;
+	align-items: center;
+	width: 90%;
+}
+
+input, textarea{
+	width: 90%;
+}
+
+textarea{
+	resize: none;
+}
+
+input[type ="text" ], input[type = "password"], input[type = "Email"], input[type ="file" ] ,textarea{
+	margin: 10px 0 0 0;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 14pt;
+}
+
+input[type ="checkbox"]{
+	margin: 10px 0 0 0;
+	width: 30px;
+	height: 30px;
+}
+
+label{
+	margin: 10px 0 0 0;
+	text-align: left;
+	width: 90%;
+}
